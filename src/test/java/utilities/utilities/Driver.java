@@ -44,6 +44,7 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver=new ChromeDriver();
 
+              /*
                 //case "safari" :
                     //  WebDriverManager.safaridriver().setup();
                     //    driver=new SafariDriver(); safariyi artik desteklemioorr
@@ -59,6 +60,8 @@ public class Driver {
                 default:
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
+
+               */
             }
 
             driver.manage().window().maximize();

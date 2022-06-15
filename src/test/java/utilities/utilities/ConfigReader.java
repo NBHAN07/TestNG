@@ -10,7 +10,7 @@ public class ConfigReader {
 
 
     static{
-        String dosyaYolu="configuration.properties";
+        String dosyaYolu="src/configuration.properties";
 
 
         try {
